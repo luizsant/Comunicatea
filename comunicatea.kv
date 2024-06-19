@@ -1,0 +1,14 @@
+<MainScreen>:
+    orientation: 'vertical'
+    Label:
+        text: 'ComunicaTEA - Inclusão Digital para Crianças Autistas'
+        font_size: 24
+    TextInput:
+        id: text_input
+        hint_text: 'Digite uma mensagem'
+    Button:
+        text: 'Enviar'
+        on_press: root.on_send_button_press()
+    Label:
+        id: output_label
+        text: ''
